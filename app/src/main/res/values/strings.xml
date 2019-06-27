@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LearnAAC</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_count">現在カウント</string>
+    <string name="message_count">現在カウントは%dです</string>
+    <string name="ok">OK</string>
+    <string name="bad_impl">良くない実装</string>
+    <string name="good_impl">良い実装</string>
+</resources>
