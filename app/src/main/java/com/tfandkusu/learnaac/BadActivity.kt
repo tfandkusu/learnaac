@@ -33,7 +33,7 @@ class BadActivity : AppCompatActivity() {
                     //プログレス非表示
                     progressView.visibility = View.INVISIBLE
                     // ダイアログ表示
-                    showDialog()
+                    showCountDialog()
                 }, 3000
             )
         }
@@ -42,7 +42,7 @@ class BadActivity : AppCompatActivity() {
     /**
      * ダイアログを表示する
      */
-    private fun showDialog() {
+    private fun showCountDialog() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.title_count))
         builder.setMessage(getString(R.string.message_count).format(count))
